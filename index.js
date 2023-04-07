@@ -45,8 +45,8 @@ function name1(event) {
   }
 }
 
-player1NameInput.addEventListener('keypress', name1)
-player2NameInput.addEventListener('keypress', name2)
+player1NameInput.addEventListener('keydown', name1)
+player2NameInput.addEventListener('keydown', name2)
 
 player1NameInput.addEventListener('input', updatePlayer1Name);
 player2NameInput.addEventListener('input', updatePlayer2Name);
